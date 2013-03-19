@@ -1,0 +1,33 @@
+﻿Build started 3/18/2013 5:49:50 PM.
+     1>Project "C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\build\application\application.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/mgurupra/Desktop/Computer Graphics/checkpoint/src/application/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\build\application\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:/Users/mgurupra/Desktop/Computer Graphics/checkpoint/src" /I"C:/Users/mgurupra/Desktop/Computer Graphics/checkpoint/windows/include" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"application.dir\Debug\\" /Fd"C:/Users/mgurupra/Desktop/Computer Graphics/checkpoint/build/application/Debug/application.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 "C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\application\application.cpp" "C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\application\camera_roam.cpp" "C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\application\imageio.cpp" "C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\application\scene_loader.cpp"
+         application.cpp
+         camera_roam.cpp
+         imageio.cpp
+     1>C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\application\imageio.cpp(62): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\application\imageio.cpp(154): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\application\imageio.cpp(258): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\application\imageio.cpp(261): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\application\imageio.cpp(263): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+         scene_loader.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\build\application\Debug\application.lib" /NOLOGO application.dir\Debug\application.obj
+         application.dir\Debug\camera_roam.obj
+         application.dir\Debug\imageio.obj
+         application.dir\Debug\scene_loader.obj
+         application.vcxproj -> C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\build\application\Debug\application.lib
+     1>Done Building Project "C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\build\application\application.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.82

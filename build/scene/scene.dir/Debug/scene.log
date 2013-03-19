@@ -1,0 +1,41 @@
+﻿Build started 3/18/2013 5:49:51 PM.
+     1>Project "C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\build\scene\scene.vcxproj" on node 5 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/mgurupra/Desktop/Computer Graphics/checkpoint/src/scene/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\build\scene\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:/Users/mgurupra/Desktop/Computer Graphics/checkpoint/src" /I"C:/Users/mgurupra/Desktop/Computer Graphics/checkpoint/windows/include" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"scene.dir\Debug\\" /Fd"C:/Users/mgurupra/Desktop/Computer Graphics/checkpoint/build/scene/Debug/scene.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 "C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\scene\material.cpp" "C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\scene\mesh.cpp" "C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\scene\model.cpp" "C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\scene\scene.cpp" "C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\scene\sphere.cpp" "C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\scene\triangle.cpp"
+         material.cpp
+     1>C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\scene\material.cpp(127): warning C4244: 'argument' : conversion from 'const _462::real_t' to 'GLfloat', possible loss of data
+         mesh.cpp
+     1>C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\scene\mesh.cpp(190): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : see declaration of 'sscanf'
+     1>C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\scene\mesh.cpp(199): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : see declaration of 'sscanf'
+     1>C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\scene\mesh.cpp(207): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : see declaration of 'sscanf'
+     1>C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\scene\mesh.cpp(216): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : see declaration of 'sscanf'
+         model.cpp
+         scene.cpp
+         sphere.cpp
+     1>C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\scene\sphere.cpp(41): warning C4244: '=' : conversion from '_462::real_t' to 'float', possible loss of data
+     1>C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\scene\sphere.cpp(42): warning C4244: '=' : conversion from '_462::real_t' to 'float', possible loss of data
+     1>C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\scene\sphere.cpp(48): warning C4244: '=' : conversion from '_462::real_t' to 'float', possible loss of data
+     1>C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\scene\sphere.cpp(49): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\scene\sphere.cpp(50): warning C4244: '=' : conversion from '_462::real_t' to 'float', possible loss of data
+         triangle.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\build\scene\Debug\scene.lib" /NOLOGO scene.dir\Debug\material.obj
+         scene.dir\Debug\mesh.obj
+         scene.dir\Debug\model.obj
+         scene.dir\Debug\scene.obj
+         scene.dir\Debug\sphere.obj
+         scene.dir\Debug\triangle.obj
+         scene.vcxproj -> C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\build\scene\Debug\scene.lib
+     1>Done Building Project "C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\build\scene\scene.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.31

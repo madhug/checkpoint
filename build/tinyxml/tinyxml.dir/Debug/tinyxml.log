@@ -1,0 +1,21 @@
+﻿Build started 3/18/2013 5:49:50 PM.
+     1>Project "C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\build\tinyxml\tinyxml.vcxproj" on node 4 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/mgurupra/Desktop/Computer Graphics/checkpoint/src/tinyxml/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\build\tinyxml\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:/Users/mgurupra/Desktop/Computer Graphics/checkpoint/src" /I"C:/Users/mgurupra/Desktop/Computer Graphics/checkpoint/windows/include" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"tinyxml.dir\Debug\\" /Fd"C:/Users/mgurupra/Desktop/Computer Graphics/checkpoint/build/tinyxml/Debug/tinyxml.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 "C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\tinyxml\tinyxml.cpp" "C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\tinyxml\tinyxmlerror.cpp" "C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\src\tinyxml\tinyxmlparser.cpp"
+         tinyxml.cpp
+         tinyxmlerror.cpp
+         tinyxmlparser.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\build\tinyxml\Debug\tinyxml.lib" /NOLOGO tinyxml.dir\Debug\tinyxml.obj
+         tinyxml.dir\Debug\tinyxmlerror.obj
+         tinyxml.dir\Debug\tinyxmlparser.obj
+         tinyxml.vcxproj -> C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\build\tinyxml\Debug\tinyxml.lib
+     1>Done Building Project "C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\build\tinyxml\tinyxml.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.01

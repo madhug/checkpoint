@@ -1,0 +1,44 @@
+Determining if files pthread.h exist failed with the following output:
+Change Dir: C:/Users/mgurupra/Desktop/Computer Graphics/checkpoint/build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe cmTryCompileExec882559193.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=11.0
+Microsoft (R) Build Engine version 4.0.30319.17929
+[Microsoft .NET Framework, version 4.0.30319.17929]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/18/2013 5:48:33 PM.
+Project "C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\build\CMakeFiles\CMakeTmp\cmTryCompileExec882559193.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec882559193.dir\Debug\".
+  Creating directory "C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec882559193.dir\Debug\cmTryCompileExec882559193.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec882559193.dir\Debug\\" /Fd"C:/Users/mgurupra/Desktop/Computer Graphics/checkpoint/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec882559193.pdb" /Gd /TC /analyze- /errorReport:queue  /Zm1000 CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec882559193.dir\Debug\\" /Fd"C:/Users/mgurupra/Desktop/Computer Graphics/checkpoint/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec882559193.pdb" /Gd /TC /analyze- /errorReport:queue  /Zm1000 CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\build\CMakeFiles\CMakeTmp\cmTryCompileExec882559193.vcxproj]
+Done Building Project "C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\build\CMakeFiles\CMakeTmp\cmTryCompileExec882559193.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\build\CMakeFiles\CMakeTmp\cmTryCompileExec882559193.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\Users\mgurupra\Desktop\Computer Graphics\checkpoint\build\CMakeFiles\CMakeTmp\cmTryCompileExec882559193.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.39
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+

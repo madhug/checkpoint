@@ -1,0 +1,7 @@
+C:/Users/mgurupra/Desktop/Computer Graphics/checkpoint/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/mgurupra/Desktop/Computer Graphics/checkpoint/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/mgurupra/Desktop/Computer Graphics/checkpoint/build/application/CMakeFiles/application.dir
+C:/Users/mgurupra/Desktop/Computer Graphics/checkpoint/build/math/CMakeFiles/math.dir
+C:/Users/mgurupra/Desktop/Computer Graphics/checkpoint/build/p3/CMakeFiles/p3.dir
+C:/Users/mgurupra/Desktop/Computer Graphics/checkpoint/build/scene/CMakeFiles/scene.dir
+C:/Users/mgurupra/Desktop/Computer Graphics/checkpoint/build/tinyxml/CMakeFiles/tinyxml.dir
